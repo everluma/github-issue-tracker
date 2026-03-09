@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+.login-section{
+    width: 70%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px;
+    background-color: rgb(236, 234, 234);
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px gainsboro;
+
+}
+
+.login-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.login-heading h1 {
+    margin-bottom: 0px;
+}
+
+.login-heading p {
+    color: grey;
+}
+
+/* Login Body  */
+
+.login-body input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-body input::placeholder {
+    color: #aaa;
+}
+
+.login-body p {
+    font-size: 16px;
+    color: blue;
+}
+
+.login-body button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color:#0969da;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-bottom: 30px;
+}
+
+.login-body button:hover {
+    background-color: #0550ae;
+}
+
+/* Or container  */
+
+.or-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.line-one {
+    width: 40%;
+    color: rgb(239, 236, 236);
+}
+.line-two {
+    width: 30%;
+    color: #aaa;
+}
+
+.or-container p {
+    color: grey;
+}
+
+/* Demo Vredentials  */
+
+.demo-credentials {
+    text-align: center;
+}
+
+.demo-credentials h2 {
+    color: rgb(171, 170, 170);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.credentials-p {
+    background-color: #e2e2e2;
+    padding: 8px;
+    border-radius: 12px;
+}
+.bold {
+    font-weight: bold;
+}

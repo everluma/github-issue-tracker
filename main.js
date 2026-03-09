@@ -82,9 +82,13 @@ card.innerHTML = `
 
 <p><strong>Label:</strong> ${issue.label}</p>
 
-<p><small>${new Date(issue.createdAt).toLocaleDateString()}</small></p>
+<hr>
+
+<p class="date">${new Date(issue.createdAt).toLocaleDateString()}</p>
 
 `;
+
+
 
 // Card Click → Modal Open
 

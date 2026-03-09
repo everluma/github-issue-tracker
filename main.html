@@ -4,8 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Issue Tracker Page</title>
+
+    <!-- Font Awasome added  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="main-body">
+
+    <!-- Navbar  -->
+
+   <nav class="navbar">
+
+    <!-- Left Logo  -->
+    <div class="logo">
+        <img src="./assets/github-logo.png" alt="GitHub logo">
+        <h2> GitHub Issues Tracker</h2>
+    </div>
+
+    <!-- Right Search Box  -->
+    <div class="search-box">
+        <input type="text"  id="searchInput"  placeholder="🔍  Search Issues...">
+        <button id="searchBtn">+ New Issue </button>
+
+    </div>
+   </nav>
+
+   <!-- Whole page section  -->
+    <section class="whole-section">
+
+        <!-- Tabs  -->
+         <section class="taps">
+            
+            <button class="tap active" data-status="all">All</button>
+
+            <button class="tap" data-status="open">Open</button>
+
+            <button class="tap" data-status="closed">Closed</button>
+         </section>
+    
+
+
+    </section>
+
+    <script src="./main.js"></script>
     
 </body>
 </html>

@@ -115,3 +115,95 @@
 .bold {
     font-weight: bold;
 }
+
+
+
+/* ************Main page er design ******  */
+
+
+/* Navbar  */
+.main-body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8ecf1;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 5px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+
+.search-box input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background-color:#e4e4e7;
+}
+
+.search-box button {
+      padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blue;
+    color:white;
+    cursor: pointer;
+    
+}
+
+.search-box button:hover {
+    background-color: #0969da;
+}
+
+
+/* Whole Section  */
+
+.whole-section {
+    padding: 50px 80px;
+}
+.taps {
+    display: flex;
+    gap: 10px;
+    background-color:#FFFFFF;
+    padding: 18px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.tap {
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    background-color: #e4e4e7;
+    color: rgb(105, 105, 105);
+}
+.tap:hover{
+    background-color: blue;
+    color: white;
+}
